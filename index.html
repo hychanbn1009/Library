@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link rel='stylesheet' href='style.css'>
+    </header>
+    <body>
+        <h1>Book Collection</h1>
+        <div class='container'>
+            <form>
+                <label for="bname">Book Name:</label>
+                <input type='text' id='bname' name='bname'><br><br>
+                <label for="author">Author:</label>
+                <input type='text' id='author' name='author'><br><br>
+                <label for="pages">Pages:</label>
+                <input type='number' id='pages' name='pages'><br><br>
+                <label for="read">Read</label>
+                <input type='checkbox' id='isRead' name='isRead'><br><br>
+                <input type="button" id='submit' value="Add">
+            </form>
+        </div>
+        <div id='result'></div>
+    </body>
+    <script src='script.js' defer></script>
+</html>
